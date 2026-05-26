@@ -44,7 +44,6 @@ First we create a folder in our local machine where we wanna duplicate or make c
 
  16. git checkout -b <new branch name> : create a new branch
 
-<<<<<<< HEAD
  17. git branch -d <branch name> : delete a branch,
 
  18. We can switch to another branch and do changes.
