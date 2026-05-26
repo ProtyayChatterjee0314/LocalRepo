@@ -1,0 +1,47 @@
+github and git can be used simultaneously in VS code.
+
+First we create a folder in our local machine where we wanna duplicate or make changes in the files of the repository.
+
+ Some of the used to commands are as follows :
+ 1. git clone <link address> :
+  This is to copy the github repo from github directly and 
+  copy in the local machine.
+
+ 2. cd command:
+  cd <repo name> :makes us to change directory and go to different repo
+  cd .. : helps to go out of the repo we are currently in.
+
+ 3. ls : list all the files present in the folder.
+
+ 4. ls -Force : shows all the hidden + files .
+
+ 5. git status: When we create a new file in our local machine , we can check 
+   the status whether they are tracked, untracked, committed, modified.
+
+ Note :change == modified , New file == untracked
+
+ 6. git add <file name> : adds the modified / untracked file.
+ 7. git add . : adds all modified or untracked files .
+
+ 8. git commit -m "A commit statement that fits ur requirement"
+
+ 9. git push origin main : pushes the files and make it save in the github repository.
+
+ 10. git mkdir <new directory name> : like LocalRepo 
+ 
+ 11. git init : used to create a new git repo only in our local machine( not shown in github yet)
+  Use it only after u create a new repository 
+ 
+ 12. git remote add origin <the github repository link> : Here LocalRepo
+ 
+ ### Note: Go to Github and first Create a Repository of the same name : Local Repo ow wont work.
+
+ 13. git branch : which branch we are present in : by default main.
+
+ 14. git branch -M <names> : renaming 
+
+ 15. git checkout <branch name> : switching from branch to another branch
+
+ 16. git checkout -b <new branch name> : create a new branch
+
+ 17. git checkout -d <branch name> : delete a branch
