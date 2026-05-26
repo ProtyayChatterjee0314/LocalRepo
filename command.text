@@ -52,4 +52,20 @@ First we create a folder in our local machine where we wanna duplicate or make c
 
  20. git merge <branch name > : to merge 2 branches.
 
+Undoing changes :
+ Case 1 : staged changes ;
+  git reset <file name>
+  git reset 
+
+ Case 2: commited changes (for one commit)
+  git reset HEAD~1
+
+ Case 3:
+  git reset <commit hash> 
+  git reset --hard <commit hash>
+
+
+
+
+
  
