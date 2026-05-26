@@ -47,3 +47,7 @@ First we create a folder in our local machine where we wanna duplicate or make c
  17. git branch -d <branch name> : delete a branch,
 
  18. We can switch to another branch and do changes.
+
+ 19. git diff <branch name> : to compare commits , branches , files and more.
+
+ 20. git merge <branch name > : to merge 2 branches.
